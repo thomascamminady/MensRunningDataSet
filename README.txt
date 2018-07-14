@@ -26,3 +26,4 @@ Things that have been changed to handle the date in a better way:
 	2) For the 100m/200m event, the windspeed was written (in some rows) as +-0 which I transformed to +0 
 	3) It was easiert to read times like 01:41.0 than 1:41.0. Therefore I inserted leading zeros in these cases.
 	4) Some running results had annotation like 10.01A or 10.01+. I removed these .
+Another problem is: that sometimes the runner's date of birth is only given by year, i.e. 89 for 1989. I skip these entries for now. Later it would probably be better to set the date to 01.01.89
